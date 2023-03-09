@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS">
+      <UniqueIdentifier>{3941B8DA-25F9-F927-8E00-D3837AD79418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\renderer">
+      <UniqueIdentifier>{1F91B1FD-8BF2-8E0B-1460-D5BD80C0C5CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\renderer\static">
+      <UniqueIdentifier>{96E6B9A8-82F6-6579-EBAF-CA97D7DE5412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\renderer\terrain">
+      <UniqueIdentifier>{A3FB25EB-0F09-54D1-98EF-4FBC04FC1F88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\scene">
+      <UniqueIdentifier>{3605D827-22FE-F679-4B30-DCFE3788D685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer">
+      <UniqueIdentifier>{936D1A48-7FD0-A9EC-2856-E2A21498756F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\static">
+      <UniqueIdentifier>{8AB8E7CE-F619-C5DC-7F87-0B8FEBE7FB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer\terrain">
+      <UniqueIdentifier>{170C0ED7-039B-97A0-ACB9-AB9B9827A846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{2A1615B6-9680-C92C-DFBE-7AD24B68A781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\NS\renderer\static\StaticRenderer.h">
+      <Filter>include\NS\renderer\static</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NS\renderer\terrain\TerrainRenderer.h">
+      <Filter>include\NS\renderer\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NS\scene\NS3DScene.h">
+      <Filter>include\NS\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NS\scene\Terrain.h">
+      <Filter>include\NS\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\renderer\static\StaticRenderer.cpp">
+      <Filter>src\renderer\static</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\terrain\TerrainRenderer.cpp">
+      <Filter>src\renderer\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\NS3DScene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+[submodule "SparrowEngine/vender/GLFW"]
+	path = SparrowEngine/vender/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "SparrowEngine\\vender\\assimp"]
+	path = SparrowEngine\\vender\\assimp
+	url = https://github.com/assimp/assimp
+[submodule "SparrowEngine/vender/yaml-cpp"]
+	path = SparrowEngine/vender/yaml-cpp
+	url = https://github.com/thecherno/yaml-cpp
+[submodule "SparrowEngine/vender/imgui"]
+	path = SparrowEngine/vender/imgui
+	url = https://github.com/thecherno/imgui
+[submodule "SparrowEngine/vender/stduuid"]
+	path = SparrowEngine/vender/stduuid
+	url = https://github.com/mariusbancila/stduuid

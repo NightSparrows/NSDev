@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS">
+      <UniqueIdentifier>{3941B8DA-25F9-F927-8E00-D3837AD79418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\renderer">
+      <UniqueIdentifier>{1F91B1FD-8BF2-8E0B-1460-D5BD80C0C5CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS\renderer\skybox">
+      <UniqueIdentifier>{6EE723A8-5AF7-CF78-C3B0-3497AFDFBE11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\skybox">
+      <UniqueIdentifier>{BC655379-A81D-95C6-1125-6E22FDFB2FB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BasicRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeferredShadingRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NS\renderer\skybox\Skybox.h">
+      <Filter>include\NS\renderer\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NS\renderer\skybox\SkyboxRenderer.h">
+      <Filter>include\NS\renderer\skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TestRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BasicRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredShadingRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skybox\SkyboxRenderer.cpp">
+      <Filter>src\skybox</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

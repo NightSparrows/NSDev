@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\NS">
+      <UniqueIdentifier>{3941B8DA-25F9-F927-8E00-D3837AD79418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MMD">
+      <UniqueIdentifier>{3A912FA9-A670-AE44-AF88-391B1BE714A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\assimp">
+      <UniqueIdentifier>{A921E44F-95D9-259D-FEE0-FEF8EAB7C08D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\NS\ModelLoader.h">
+      <Filter>include\NS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MMD\MMDLoader.cpp">
+      <Filter>src\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\assimp\AssimpLoader.cpp">
+      <Filter>src\assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

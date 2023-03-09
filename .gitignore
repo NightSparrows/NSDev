@@ -1,0 +1,14 @@
+/.vs
+/bin-int
+/bin
+/NSDev.sln
+/*.sln
+/SparrowEngine/vender
+/SparrowEngine/SparrowEngine.vcxproj.filters
+/SparrowEngine/SparrowEngine.vcxproj.user
+/SparrowEngine/SparrowEngine.vcxproj
+/Sandbox/Sandbox.vcxproj.user
+/Sandbox/SparrowEngine.log
+/Sandbox/Sandbox.vcxproj
+bin
+bin-int

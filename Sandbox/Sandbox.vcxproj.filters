@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="testAnimatedRenderer">
+      <UniqueIdentifier>{7F7615EE-6B05-9FB7-1424-B3B20092AF5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testStaticRenderer">
+      <UniqueIdentifier>{64F42598-50D8-E6ED-B938-E140A53BD16F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\PlayableCamera.h" />
+    <ClInclude Include="src\StartState.h" />
+    <ClInclude Include="src\testAnimatedRenderer\TestAnimatedRenderer.h">
+      <Filter>testAnimatedRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testStaticRenderer\TestStaticRenderer.h">
+      <Filter>testStaticRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FinalProjectState.h" />
+    <ClInclude Include="src\renderer\terrain\TerrainRenderer.h" />
+    <ClInclude Include="src\renderer\terrain\Terrain.h" />
+    <ClInclude Include="src\renderer\skybox\Skybox.h" />
+    <ClInclude Include="src\renderer\skybox\SkyboxRenderer.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\PlayerCamera.h" />
+    <ClInclude Include="src\renderer\particle\Particle.h" />
+    <ClInclude Include="src\renderer\particle\ParticleRenderer.h" />
+    <ClInclude Include="src\renderer\shadow\ShadowBox.h" />
+    <ClInclude Include="src\renderer\shadow\ShadowRenderer.h" />
+    <ClInclude Include="src\renderer\static\StaticRenderer.h" />
+    <ClInclude Include="src\renderer\toonShading\ToonRenderer.h" />
+    <ClInclude Include="src\renderer\envMapRenderer\EnvMapRenderer.h" />
+    <ClInclude Include="src\renderer\envMapRenderer\EnvMapCamera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\PlayableCamera.cpp" />
+    <ClCompile Include="src\StartState.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testAnimatedRenderer\TestAnimatedRenderer.cpp">
+      <Filter>testAnimatedRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testStaticRenderer\TestStaticRenderer.cpp">
+      <Filter>testStaticRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FinalProjectState.cpp" />
+    <ClCompile Include="src\renderer\terrain\TerrainRenderer.cpp" />
+    <ClCompile Include="src\renderer\terrain\Terrain.cpp" />
+    <ClCompile Include="src\renderer\skybox\Skybox.cpp" />
+    <ClCompile Include="src\renderer\skybox\SkyboxRenderer.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\PlayerCamera.cpp" />
+    <ClCompile Include="src\renderer\particle\Particle.cpp" />
+    <ClCompile Include="src\renderer\particle\ParticleRenderer.cpp" />
+    <ClCompile Include="src\renderer\shadow\ShadowBox.cpp" />
+    <ClCompile Include="src\renderer\shadow\ShadowRenderer.cpp" />
+    <ClCompile Include="src\renderer\static\StaticRenderer.cpp" />
+    <ClCompile Include="src\renderer\toonShading\ToonRenderer.cpp" />
+    <ClCompile Include="src\renderer\envMapRenderer\EnvMapRenderer.cpp" />
+    <ClCompile Include="src\renderer\envMapRenderer\EnvMapCamera.cpp" />
+  </ItemGroup>
+</Project>
